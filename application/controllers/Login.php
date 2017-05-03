@@ -34,7 +34,7 @@ class Login extends CI_Controller {
 			return true;
 		}
 		else{
-			$this->form_validation->set_message("Login Gagal! Username dan Password tidak valid");
+			$this->form_validation->set_message('cekDb',"Login Gagal! Username dan Password tidak valid");
 			return false;   
 		}
 	}
